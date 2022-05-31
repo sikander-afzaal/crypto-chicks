@@ -4,6 +4,9 @@ import gif from "../../../Assets/gif.gif";
 function Hero() {
   return (
     <div className="hero">
+      <div className="right__hero">
+        <img src={gif} alt="" />
+      </div>
       <div className="left__hero">
         <h1 className="futura">
           CRYPTO CHICKS <span className="lulu-bold">10K.</span>
@@ -13,9 +16,6 @@ function Hero() {
           a wide selection of colorful, fun attributes.
         </p>
         <button className="view lulu-bold">View on opensea</button>
-      </div>
-      <div className="right__hero">
-        <img src={gif} alt="" />
       </div>
     </div>
   );

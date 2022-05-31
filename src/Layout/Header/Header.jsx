@@ -27,22 +27,27 @@ function Header() {
         <FontAwesomeIcon
           onClick={() => setMenu(true)}
           icon={faBars}
-          className="menu-icon"
+          className="menu-icon mobile"
         />
       </div>
       <div className="logo">
         <h1 className="lulu-bold">CRYPTO CHICKS</h1>
       </div>
+      <FontAwesomeIcon
+        onClick={() => setMenu(true)}
+        icon={faBars}
+        className="menu-icon desktop"
+      />
       <div className={`slide-menu ${menu ? "open-slide-menu" : ""}`}>
         <FontAwesomeIcon
           onClick={() => setMenu(false)}
           icon={faXmark}
           className="cross"
         />
-        <div className="row-menu">
+        {/* <div className="row-menu">
           <img src={menuImg} alt="" />
           <h2 className="lulu-bold">MENU</h2>
-        </div>
+        </div> */}
         <div className="menu-links-div">
           <a href="#" className="futura menu-link active">
             Home

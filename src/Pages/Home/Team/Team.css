@@ -8,7 +8,7 @@
 }
 .section-heading {
   font-size: 3rem;
-  text-transform: capitalize;
+  text-transform: uppercase;
   color: var(--primary-color);
 }
 .coo-row {
@@ -36,9 +36,23 @@
 }
 .coo__img-div .team-nft {
   position: absolute;
-  z-index: 5;
-  bottom: 3%;
-  right: -15%;
+  z-index: -1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 214px;
+}
+.team-img {
+  transition: all 0.6s ease-in-out;
+}
+.team-img:hover {
+  opacity: 0;
+}
+.top-desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 .coo-div h2 {
   font-size: 1.5rem;

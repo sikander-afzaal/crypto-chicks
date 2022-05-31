@@ -9,19 +9,25 @@ import TeamBox from "../../../Components/TeamBox/TeamBox";
 function Team() {
   return (
     <div className="team">
-      <h2 className="futura section-heading">Meet The Team</h2>
+      <h2 className="futura section-heading">Team</h2>
       <div className="coo-row">
         <div className="coo-div">
           <div className="coo__img-div">
             <img src={teamImg} alt="" className="team-img" />
             <img src={teamNft} alt="" className="team-nft" />
           </div>
-          <h2 className="futura">Elissa Maercklein</h2>
-          <p className="futura title">CEO and CMO</p>
-          <div className="social-team">
-            <FontAwesomeIcon icon={faTwitter} />
-            <FontAwesomeIcon icon={faLinkedin} />
+          <div className="top-desc">
+            <div>
+              <h2 className="futura">Elissa Maercklein</h2>
+              <p className="futura title">CEO and CMO</p>
+            </div>
+
+            <div className="social-team">
+              <FontAwesomeIcon icon={faTwitter} />
+              <FontAwesomeIcon icon={faLinkedin} />
+            </div>
           </div>
+
           <p className="coo-desc futura">
             I grew up in the Midwest in the US and have spent the past few years
             in the Bay Area. I now live in Seattle, Washington. Prior to CC, I
@@ -38,12 +44,18 @@ function Team() {
             <img src={teamImg} alt="" className="team-img" />
             <img src={teamNft} alt="" className="team-nft" />
           </div>
-          <h2 className="futura">Elissa Maercklein</h2>
-          <p className="futura title">CEO and CMO</p>
-          <div className="social-team">
-            <FontAwesomeIcon icon={faTwitter} />
-            <FontAwesomeIcon icon={faLinkedin} />
+          <div className="top-desc">
+            <div>
+              <h2 className="futura">Elissa Maercklein</h2>
+              <p className="futura title">CEO and CMO</p>
+            </div>
+
+            <div className="social-team">
+              <FontAwesomeIcon icon={faTwitter} />
+              <FontAwesomeIcon icon={faLinkedin} />
+            </div>
           </div>
+
           <p className="coo-desc futura">
             I grew up in the Midwest in the US and have spent the past few years
             in the Bay Area. I now live in Seattle, Washington. Prior to CC, I
@@ -122,7 +134,7 @@ function Team() {
           title={"Head of Growth"}
         />
       </div>
-      <div className="mod-container">
+      {/* <div className="mod-container">
         <h1 className="futura">Mod Squad</h1>
         <div className="mod-row">
           <div className="mod-div">
@@ -190,7 +202,7 @@ function Team() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

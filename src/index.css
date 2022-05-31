@@ -25,8 +25,8 @@
   font-family: "LuloClean", "sans-serif";
 }
 :root {
-  --primary-color: #a43ae2;
-  --secondary-color: #7619ac;
+  --primary-color: #963cf0;
+  --secondary-color: #a43cdc;
   --gradient-color: linear-gradient(
     140deg,
     rgb(138, 62, 255) 0%,

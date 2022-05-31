@@ -5,15 +5,15 @@
   min-height: calc(100vh - 173px);
   margin-top: 180px;
   width: 100%;
-  gap: 9rem;
+  gap: 0rem;
 }
 .left__hero {
   flex: 0.5;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
   flex-direction: column;
-  gap: 3.5rem;
+  gap: 2.5rem;
 }
 .left__hero h1 {
   display: flex;
@@ -27,7 +27,7 @@
   font-size: 1.75rem;
   color: var(--secondary-color);
   width: 517px;
-  text-align: end;
+  text-align: left;
 }
 .view {
   width: 258px;
