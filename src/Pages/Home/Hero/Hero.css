@@ -1,0 +1,121 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 173px);
+  margin-top: 180px;
+  width: 100%;
+  gap: 9rem;
+}
+.left__hero {
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+.left__hero h1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  letter-spacing: 4px;
+}
+.left__hero p {
+  font-size: 1.75rem;
+  color: var(--secondary-color);
+  width: 517px;
+  text-align: end;
+}
+.view {
+  width: 258px;
+  height: 51px;
+  border-radius: 25px;
+  background: var(--gradient-color);
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 11px;
+  cursor: pointer;
+}
+/* .view::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  background: linear-gradient(
+    -140deg,
+    rgb(138, 62, 255) 0%,
+    rgb(184, 54, 202) 40%,
+    rgb(230, 47, 151) 80%,
+    rgb(246, 43, 132) 100%
+  );
+  transition: all 0.3s ease-in-out;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0;
+}
+.view:hover::before {
+  opacity: 1;
+}
+.view:hover {
+  background: none;
+} */
+.right__hero {
+  flex: 0.5;
+}
+.right__hero img {
+  width: 400px;
+  height: 575px;
+  object-fit: cover;
+}
+@media screen and (max-width: 1196px) {
+  .hero {
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 1098px) {
+  .hero {
+    flex-direction: column;
+    padding-inline: 20px;
+    margin-top: 150px;
+  }
+  .left__hero,
+  .right__hero {
+    flex: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .left__hero {
+    gap: 20px;
+  }
+  .left__hero h1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .left__hero p {
+    width: 100%;
+    text-align: center;
+    font-size: 1.45rem;
+  }
+}
+@media screen and (max-width: 458px) {
+  .right__hero img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  .left__hero h1 {
+    font-size: 1.8rem;
+  }
+}

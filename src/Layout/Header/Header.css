@@ -9,7 +9,7 @@
   align-items: center;
   flex-direction: column;
   padding: 30px 50px;
-  gap: 20px;
+  gap: 5px;
 }
 .top-header {
   display: flex;
@@ -39,12 +39,12 @@
 .logo h1 {
   font-size: 2.75rem;
   letter-spacing: 20px;
-  color: #a43ae2;
+  color: var(--primary-color);
 }
 .menu-icon {
   font-size: 1.7rem;
   cursor: pointer;
-  color: #a43ae2;
+  color: var(--primary-color);
 }
 .menu-icon:hover {
   color: black;
@@ -90,7 +90,7 @@
 .row-menu h2 {
   letter-spacing: 2px;
   font-size: 1.5rem;
-  color: #a43ae2;
+  color: var(--primary-color);
 }
 .menu-links-div {
   width: 100%;
@@ -110,7 +110,7 @@
   transition: all 0.3s ease-in-out;
 }
 .active {
-  color: #a43ae2;
+  color: var(--primary-color);
 }
 .menu-link:hover {
   background-color: rgb(199, 199, 199);
@@ -120,6 +120,12 @@
   .logo h1 {
     font-size: 2rem;
     letter-spacing: 14px;
+  }
+}
+@media screen and (max-width: 1098px) {
+  .header {
+    height: auto;
+    gap: 15px;
   }
 }
 @media screen and (max-width: 854px) {
