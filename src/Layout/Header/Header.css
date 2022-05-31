@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  height: 173px;
+  height: 143px;
   position: fixed;
   top: 0;
   left: 0;
@@ -12,7 +12,7 @@
   gap: 5px;
   background-color: white;
   z-index: 10;
-  border-bottom: 2px solid var(--primary-color);
+  border-bottom: 2px solid purple;
 }
 .top-header {
   display: flex;
@@ -41,12 +41,12 @@
 .logo h1 {
   font-size: 2.75rem;
   letter-spacing: 20px;
-  color: var(--primary-color);
+  color: var(black);
 }
 .menu-icon {
   font-size: 1.7rem;
   cursor: pointer;
-  color: var(--primary-color);
+  color: black;
 }
 .menu-icon:hover {
   color: black;
@@ -67,6 +67,7 @@
   width: 330px;
   transition: right 0.7s ease-in-out, opacity 1s 0.4s ease-in;
   z-index: 15;
+  border-left: 2px solid black;
 }
 .open-slide-menu {
   right: 0;
@@ -177,5 +178,6 @@
   }
   .slide-menu {
     width: 100%;
+    border: none;
   }
 }
