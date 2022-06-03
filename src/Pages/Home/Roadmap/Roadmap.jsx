@@ -10,7 +10,7 @@ function Roadmap() {
 
       <div className="roadmap-grid">
         <div className="line"></div>
-        <Fade triggerOnce duration={1500} delay={200} cascade direction="down">
+        <Fade triggerOnce duration={1500} delay={200} cascade>
           <div className="road-div div1">
             <h2 className="kanit">Phase 1: Lorem, ipsum dolor.</h2>
             <p className="futura">
