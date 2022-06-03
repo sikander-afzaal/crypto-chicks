@@ -11,7 +11,7 @@ import TeamBox from "../../../Components/TeamBox/TeamBox";
 import { Fade } from "react-awesome-reveal";
 function Team() {
   return (
-    <div className="team">
+    <div id="team" className="team">
       <Fade triggerOnce direction="down" duration={500} delay={200}>
         <h2 className="kanit section-heading">Team</h2>
       </Fade>

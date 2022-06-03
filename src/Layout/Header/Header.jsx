@@ -48,23 +48,43 @@ function Header() {
           <h2 className="lulu-bold">MENU</h2>
         </div> */}
         <div className="menu-links-div">
-          <a href="#" className="futura menu-link active">
+          <a
+            href="#hero"
+            onClick={() => setMenu(false)}
+            className="futura menu-link active"
+          >
             Home
           </a>
 
-          <a href="#" className="futura menu-link">
+          <a
+            href="#about"
+            onClick={() => setMenu(false)}
+            className="futura menu-link"
+          >
             About Us
           </a>
 
-          <a href="#" className="futura menu-link">
+          <a
+            href="#road"
+            onClick={() => setMenu(false)}
+            className="futura menu-link"
+          >
             Roadmap
           </a>
 
-          <a href="#" className="futura menu-link">
+          <a
+            href="#team"
+            onClick={() => setMenu(false)}
+            className="futura menu-link"
+          >
             Team
           </a>
 
-          <a href="#" className="futura menu-link">
+          <a
+            href="#faq"
+            onClick={() => setMenu(false)}
+            className="futura menu-link"
+          >
             Faq
           </a>
         </div>

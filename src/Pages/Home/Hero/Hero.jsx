@@ -4,7 +4,7 @@ import gif from "../../../Assets/gif.gif";
 import { Fade } from "react-awesome-reveal";
 function Hero() {
   return (
-    <div className="hero">
+    <div id="hero" className="hero">
       <Fade triggerOnce direction="left" duration={800} delay={200}>
         <div className="right__hero">
           <img src={gif} alt="" />

@@ -4,15 +4,13 @@
   padding-inline: 10px;
 }
 .index-cont {
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-image: url("../../Assets/cool-background.svg");
-  background-position: top right;
-  background-repeat: no-repeat; */
   padding-top: 180px;
   position: relative;
+  overflow-x: hidden;
 }
 .bg {
   right: 0;

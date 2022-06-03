@@ -3,7 +3,7 @@ import { Fade } from "react-awesome-reveal";
 import "./About.css";
 function About() {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <Fade triggerOnce direction="down" duration={500} delay={200}>
         <h1 className="kanit section-heading">About Us</h1>
       </Fade>

@@ -23,7 +23,7 @@ function Faq() {
     });
   };
   return (
-    <div className="faq">
+    <div id="faq" className="faq">
       <Fade triggerOnce direction="down" duration={500} delay={200}>
         <h1 className="section-heading kanit">FAQ'S</h1>
       </Fade>

@@ -3,7 +3,7 @@ import { Fade } from "react-awesome-reveal";
 import "./Roadmap.css";
 function Roadmap() {
   return (
-    <div className="roadmap">
+    <div id="road" className="roadmap">
       <Fade triggerOnce direction="down" duration={500} delay={200}>
         <h2 className="kanit section-heading">ROADMAP</h2>
       </Fade>

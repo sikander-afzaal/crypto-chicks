@@ -49,3 +49,7 @@
 body {
   background: var(--body-bg);
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 175px;
+}
