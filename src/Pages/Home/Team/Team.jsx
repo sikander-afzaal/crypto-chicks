@@ -1,6 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
 
 import "./Team.css";
 import teamImg from "../../../Assets/team/team1.webp";
@@ -69,71 +71,104 @@ function Team() {
         </div>
       </div>
       <div className="team-grid">
-        <TeamBox
-          img={teamNft}
-          desc={
-            "Philly has been my hometown for many years now (go Birds). My professional background is in product development, design, and production. I later became a consultant for business development with a focus on implementing scaling strategies specifically for small businesses through tech, customer service and engagement. In other news, Satoshi Nakamoto was my first love. Initially I was drawn to the shared community ethos for a decentralized, nationless currency. Fast forward to 2021 and curiosity brought me to NFTs. I’m here to share ideas, brainstorm elaborate plans, collaborate, and have fun building cool shit. Also, is my dog invited?"
-          }
-          name={"Esther"}
-          title={"Head of Growth"}
-        />
-        <TeamBox
-          img={teamNft}
-          desc={
-            "Philly has been my hometown for many years now (go Birds). My professional background is in product development, design, and production. I later became a consultant for business development with a focus on implementing scaling strategies specifically for small businesses through tech, customer service and engagement. In other news, Satoshi Nakamoto was my first love. Initially I was drawn to the shared community ethos for a decentralized, nationless currency. Fast forward to 2021 and curiosity brought me to NFTs. I’m here to share ideas, brainstorm elaborate plans, collaborate, and have fun building cool shit. Also, is my dog invited?"
-          }
-          name={"Esther"}
-          title={"Head of Growth"}
-        />
-        <TeamBox
-          img={teamNft}
-          desc={
-            "Philly has been my hometown for many years now (go Birds). My professional background is in product development, design, and production. I later became a consultant for business development with a focus on implementing scaling strategies specifically for small businesses through tech, customer service and engagement. In other news, Satoshi Nakamoto was my first love. Initially I was drawn to the shared community ethos for a decentralized, nationless currency. Fast forward to 2021 and curiosity brought me to NFTs. I’m here to share ideas, brainstorm elaborate plans, collaborate, and have fun building cool shit. Also, is my dog invited?"
-          }
-          name={"Esther"}
-          title={"Head of Growth"}
-        />
-        <TeamBox
-          img={teamNft}
-          desc={
-            "Philly has been my hometown for many years now (go Birds). My professional background is in product development, design, and production. I later became a consultant for business development with a focus on implementing scaling strategies specifically for small businesses through tech, customer service and engagement. In other news, Satoshi Nakamoto was my first love. Initially I was drawn to the shared community ethos for a decentralized, nationless currency. Fast forward to 2021 and curiosity brought me to NFTs. I’m here to share ideas, brainstorm elaborate plans, collaborate, and have fun building cool shit. Also, is my dog invited?"
-          }
-          name={"Esther"}
-          title={"Head of Growth"}
-        />
-        <TeamBox
-          img={teamNft}
-          desc={
-            "Philly has been my hometown for many years now (go Birds). My professional background is in product development, design, and production. I later became a consultant for business development with a focus on implementing scaling strategies specifically for small businesses through tech, customer service and engagement. In other news, Satoshi Nakamoto was my first love. Initially I was drawn to the shared community ethos for a decentralized, nationless currency. Fast forward to 2021 and curiosity brought me to NFTs. I’m here to share ideas, brainstorm elaborate plans, collaborate, and have fun building cool shit. Also, is my dog invited?"
-          }
-          name={"Esther"}
-          title={"Head of Growth"}
-        />
-        <TeamBox
-          img={teamNft}
-          desc={
-            "Philly has been my hometown for many years now (go Birds). My professional background is in product development, design, and production. I later became a consultant for business development with a focus on implementing scaling strategies specifically for small businesses through tech, customer service and engagement. In other news, Satoshi Nakamoto was my first love. Initially I was drawn to the shared community ethos for a decentralized, nationless currency. Fast forward to 2021 and curiosity brought me to NFTs. I’m here to share ideas, brainstorm elaborate plans, collaborate, and have fun building cool shit. Also, is my dog invited?"
-          }
-          name={"Esther"}
-          title={"Head of Growth"}
-        />
-        <TeamBox
-          img={teamNft}
-          desc={
-            "Philly has been my hometown for many years now (go Birds). My professional background is in product development, design, and production. I later became a consultant for business development with a focus on implementing scaling strategies specifically for small businesses through tech, customer service and engagement. In other news, Satoshi Nakamoto was my first love. Initially I was drawn to the shared community ethos for a decentralized, nationless currency. Fast forward to 2021 and curiosity brought me to NFTs. I’m here to share ideas, brainstorm elaborate plans, collaborate, and have fun building cool shit. Also, is my dog invited?"
-          }
-          name={"Esther"}
-          title={"Head of Growth"}
-        />
-        <TeamBox
-          img={teamNft}
-          desc={
-            "Philly has been my hometown for many years now (go Birds). My professional background is in product development, design, and production. I later became a consultant for business development with a focus on implementing scaling strategies specifically for small businesses through tech, customer service and engagement. In other news, Satoshi Nakamoto was my first love. Initially I was drawn to the shared community ethos for a decentralized, nationless currency. Fast forward to 2021 and curiosity brought me to NFTs. I’m here to share ideas, brainstorm elaborate plans, collaborate, and have fun building cool shit. Also, is my dog invited?"
-          }
-          name={"Esther"}
-          title={"Head of Growth"}
-        />
+        <Splide
+          options={{
+            width: "100%",
+            autoplay: true,
+            arrows: true,
+            pagination: false,
+            perPage: 2,
+            type: "loop",
+            breakpoints: {
+              788: {
+                perPage: 1,
+              },
+            },
+          }}
+        >
+          <SplideSlide>
+            <TeamBox
+              img={teamNft}
+              desc={
+                "Philly has been my hometown for many years now (go Birds). My professional background is in product development, design, and production. I later became a consultant for business development with a focus on implementing scaling strategies specifically for small businesses through tech, customer service and engagement. In other news, Satoshi Nakamoto was my first love. Initially I was drawn to the shared community ethos for a decentralized, nationless currency. Fast forward to 2021 and curiosity brought me to NFTs. I’m here to share ideas, brainstorm elaborate plans, collaborate, and have fun building cool shit. Also, is my dog invited?"
+              }
+              name={"Esther"}
+              title={"Head of Growth"}
+            />
+          </SplideSlide>
+          <SplideSlide>
+            <TeamBox
+              img={teamNft}
+              desc={
+                "Philly has been my hometown for many years now (go Birds). My professional background is in product development, design, and production. I later became a consultant for business development with a focus on implementing scaling strategies specifically for small businesses through tech, customer service and engagement. In other news, Satoshi Nakamoto was my first love. Initially I was drawn to the shared community ethos for a decentralized, nationless currency. Fast forward to 2021 and curiosity brought me to NFTs. I’m here to share ideas, brainstorm elaborate plans, collaborate, and have fun building cool shit. Also, is my dog invited?"
+              }
+              name={"Esther"}
+              title={"Head of Growth"}
+            />
+          </SplideSlide>
+          <SplideSlide>
+            <TeamBox
+              img={teamNft}
+              desc={
+                "Philly has been my hometown for many years now (go Birds). My professional background is in product development, design, and production. I later became a consultant for business development with a focus on implementing scaling strategies specifically for small businesses through tech, customer service and engagement. In other news, Satoshi Nakamoto was my first love. Initially I was drawn to the shared community ethos for a decentralized, nationless currency. Fast forward to 2021 and curiosity brought me to NFTs. I’m here to share ideas, brainstorm elaborate plans, collaborate, and have fun building cool shit. Also, is my dog invited?"
+              }
+              name={"Esther"}
+              title={"Head of Growth"}
+            />
+          </SplideSlide>
+          <SplideSlide>
+            <TeamBox
+              img={teamNft}
+              desc={
+                "Philly has been my hometown for many years now (go Birds). My professional background is in product development, design, and production. I later became a consultant for business development with a focus on implementing scaling strategies specifically for small businesses through tech, customer service and engagement. In other news, Satoshi Nakamoto was my first love. Initially I was drawn to the shared community ethos for a decentralized, nationless currency. Fast forward to 2021 and curiosity brought me to NFTs. I’m here to share ideas, brainstorm elaborate plans, collaborate, and have fun building cool shit. Also, is my dog invited?"
+              }
+              name={"Esther"}
+              title={"Head of Growth"}
+            />
+          </SplideSlide>
+          <SplideSlide>
+            <TeamBox
+              img={teamNft}
+              desc={
+                "Philly has been my hometown for many years now (go Birds). My professional background is in product development, design, and production. I later became a consultant for business development with a focus on implementing scaling strategies specifically for small businesses through tech, customer service and engagement. In other news, Satoshi Nakamoto was my first love. Initially I was drawn to the shared community ethos for a decentralized, nationless currency. Fast forward to 2021 and curiosity brought me to NFTs. I’m here to share ideas, brainstorm elaborate plans, collaborate, and have fun building cool shit. Also, is my dog invited?"
+              }
+              name={"Esther"}
+              title={"Head of Growth"}
+            />
+          </SplideSlide>
+          <SplideSlide>
+            <TeamBox
+              img={teamNft}
+              desc={
+                "Philly has been my hometown for many years now (go Birds). My professional background is in product development, design, and production. I later became a consultant for business development with a focus on implementing scaling strategies specifically for small businesses through tech, customer service and engagement. In other news, Satoshi Nakamoto was my first love. Initially I was drawn to the shared community ethos for a decentralized, nationless currency. Fast forward to 2021 and curiosity brought me to NFTs. I’m here to share ideas, brainstorm elaborate plans, collaborate, and have fun building cool shit. Also, is my dog invited?"
+              }
+              name={"Esther"}
+              title={"Head of Growth"}
+            />
+          </SplideSlide>
+          <SplideSlide>
+            <TeamBox
+              img={teamNft}
+              desc={
+                "Philly has been my hometown for many years now (go Birds). My professional background is in product development, design, and production. I later became a consultant for business development with a focus on implementing scaling strategies specifically for small businesses through tech, customer service and engagement. In other news, Satoshi Nakamoto was my first love. Initially I was drawn to the shared community ethos for a decentralized, nationless currency. Fast forward to 2021 and curiosity brought me to NFTs. I’m here to share ideas, brainstorm elaborate plans, collaborate, and have fun building cool shit. Also, is my dog invited?"
+              }
+              name={"Esther"}
+              title={"Head of Growth"}
+            />
+          </SplideSlide>
+          <SplideSlide>
+            <TeamBox
+              img={teamNft}
+              desc={
+                "Philly has been my hometown for many years now (go Birds). My professional background is in product development, design, and production. I later became a consultant for business development with a focus on implementing scaling strategies specifically for small businesses through tech, customer service and engagement. In other news, Satoshi Nakamoto was my first love. Initially I was drawn to the shared community ethos for a decentralized, nationless currency. Fast forward to 2021 and curiosity brought me to NFTs. I’m here to share ideas, brainstorm elaborate plans, collaborate, and have fun building cool shit. Also, is my dog invited?"
+              }
+              name={"Esther"}
+              title={"Head of Growth"}
+            />
+          </SplideSlide>
+        </Splide>
       </div>
+
       {/* <div className="mod-container">
         <h1 className="futura">Mod Squad</h1>
         <div className="mod-row">

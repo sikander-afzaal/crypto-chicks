@@ -5,29 +5,28 @@
   min-height: calc(100vh - 173px);
   margin-top: 180px;
   width: 100%;
-  gap: 0rem;
+  gap: 2rem;
 }
 .left__hero {
-  flex: 0.5;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 1.5rem;
 }
 .left__hero h1 {
   display: flex;
   gap: 10px;
   align-items: center;
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: var(--primary-color);
   letter-spacing: 4px;
 }
 .left__hero p {
-  font-size: 1.75rem;
+  font-size: 2rem;
   color: var(--secondary-color);
   width: 517px;
-  text-align: left;
+  text-align: center;
 }
 .view {
   width: 258px;
@@ -66,9 +65,7 @@
 .view:hover {
   background: none;
 } */
-.right__hero {
-  flex: 0.5;
-}
+
 .right__hero img {
   width: 400px;
   height: 575px;
@@ -103,7 +100,7 @@
     font-size: 2rem;
   }
   .left__hero p {
-    width: 100%;
+    width: 440px;
     text-align: center;
     font-size: 1.45rem;
   }
@@ -117,5 +114,8 @@
   }
   .left__hero h1 {
     font-size: 1.8rem;
+  }
+  .left__hero p {
+    width: 100%;
   }
 }

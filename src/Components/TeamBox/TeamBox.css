@@ -39,7 +39,7 @@
   line-height: 1.6;
   color: white;
 }
-@media screen and (max-width: 1174px) {
+/* @media screen and (max-width: 1174px) {
   .team-box-desc {
     width: 95%;
     text-align: left;
@@ -67,7 +67,6 @@
     align-items: flex-start;
     text-align: left;
   } */
-  .team-box-desc {
+/* .team-box-desc {
     width: 100%;
-  }
-}
+  } */

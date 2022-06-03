@@ -5,6 +5,7 @@
   flex-direction: column;
   width: 100%;
   margin-top: 3rem;
+  padding-bottom: 2rem;
 }
 .section-heading {
   font-size: 3rem;
@@ -84,14 +85,23 @@
   color: white;
 }
 .team-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: auto;
   width: 100%;
-  margin-top: 6rem;
-  row-gap: 40px;
-  column-gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
 }
+.splide__arrow {
+  opacity: 1 !important;
+  width: 3em !important;
+  height: 3em !important;
+  background: var(--gradient-color) !important;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+}
+.splide__arrow svg {
+  fill: white !important;
+}
+
 .mod-container {
   width: 100%;
   display: flex;
