@@ -8,10 +8,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../../Assets/cool-background.svg");
+  /* background-image: url("../../Assets/cool-background.svg");
   background-position: top right;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   padding-top: 180px;
+  position: relative;
+}
+.bg {
+  right: 0;
+  top: 0;
+  max-width: 100%;
+  object-fit: contain;
+  opacity: 0.6;
+  position: absolute;
+  z-index: -1;
 }
 @media screen and (max-width: 1098px) {
   .index-cont {

@@ -78,7 +78,12 @@ function Team() {
             arrows: true,
             pagination: false,
             perPage: 2,
+            perMove: 1,
+            gap: "1rem",
             type: "loop",
+            interval: 5000,
+            speed: 4000,
+            pauseOnHover: true,
             breakpoints: {
               788: {
                 perPage: 1,

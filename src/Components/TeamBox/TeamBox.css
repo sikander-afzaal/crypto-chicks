@@ -5,6 +5,12 @@
   gap: 20px;
   width: 100%;
   flex-direction: column;
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(12px);
+  padding: 20px 0px;
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  overflow: visible;
 }
 .team-box__left {
   display: flex;
@@ -13,6 +19,12 @@
   gap: 10px;
   flex-direction: column;
   width: 100%;
+}
+.team-box__left .team-nft {
+  transition: all 0.25s ease-in-out;
+}
+.team-box__left .team-nft:hover {
+  transform: scale(1.15) translateY(-10px);
 }
 
 .team-box__right {
@@ -37,7 +49,7 @@
   text-align: center;
   width: 85%;
   line-height: 1.6;
-  color: white;
+  color: black;
 }
 /* @media screen and (max-width: 1174px) {
   .team-box-desc {
