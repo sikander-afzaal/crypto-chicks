@@ -2,16 +2,20 @@ import React from "react";
 import "./HomeIndex.css";
 import Hero from "./Hero/Hero";
 import Team from "./Team/Team";
-import Roadmap from "../Roadmap/Roadmap";
+import Roadmap from "./Roadmap/Roadmap";
 import bg from "../../Assets/cool-background.svg";
+import About from "./About/About";
+import Faq from "./Faq/Faq";
 function Index() {
   return (
     <div className="index-cont">
       <img src={bg} alt="" className="bg" />
       <div className="home-index">
         <Hero />
-        <Team />
+        <About />
         <Roadmap />
+        <Team />
+        <Faq />
       </div>
     </div>
   );

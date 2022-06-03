@@ -12,7 +12,7 @@
   gap: 5px;
   background-color: white;
   z-index: 10;
-  border-bottom: 2px solid purple;
+  border-bottom: 2px solid black;
 }
 .top-header {
   display: flex;

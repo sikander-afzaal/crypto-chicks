@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./Layout/Footer/Footer";
 import Header from "./Layout/Header/Header";
 import Index from "./Pages/Home/Index";
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Header />
       <Index />
+      <Footer />
     </div>
   );
 }

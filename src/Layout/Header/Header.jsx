@@ -10,7 +10,6 @@ import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 import "./Header.css";
 import opensea from "../../Assets/opensea.webp";
-import menuImg from "../../Assets/menu-img.png";
 function Header() {
   const [menu, setMenu] = useState(false);
 

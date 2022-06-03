@@ -5,12 +5,11 @@
   gap: 20px;
   width: 100%;
   flex-direction: column;
-  background: rgba(255, 255, 255, 0.35);
-  backdrop-filter: blur(12px);
+  background: var(--gradient-color);
   padding: 20px 0px;
-  -webkit-backdrop-filter: blur(20px);
   border-radius: 10px;
   overflow: visible;
+  border: 2px solid white;
 }
 .team-box__left {
   display: flex;
@@ -49,7 +48,7 @@
   text-align: center;
   width: 85%;
   line-height: 1.6;
-  color: black;
+  color: white;
 }
 /* @media screen and (max-width: 1174px) {
   .team-box-desc {
