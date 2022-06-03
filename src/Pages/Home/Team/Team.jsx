@@ -11,7 +11,7 @@ import TeamBox from "../../../Components/TeamBox/TeamBox";
 function Team() {
   return (
     <div className="team">
-      <h2 className="futura section-heading">Team</h2>
+      <h2 className="kanit section-heading">Team</h2>
       <div className="coo-row">
         <div className="coo-div">
           <div className="coo__img-div">
@@ -20,7 +20,7 @@ function Team() {
           </div>
           <div className="top-desc">
             <div>
-              <h2 className="futura">Elissa Maercklein</h2>
+              <h2 className="kanit">Elissa Maercklein</h2>
               <p className="futura title">CEO and CMO</p>
             </div>
 
@@ -48,7 +48,7 @@ function Team() {
           </div>
           <div className="top-desc">
             <div>
-              <h2 className="futura">Elissa Maercklein</h2>
+              <h2 className="kanit">Elissa Maercklein</h2>
               <p className="futura title">CEO and CMO</p>
             </div>
 

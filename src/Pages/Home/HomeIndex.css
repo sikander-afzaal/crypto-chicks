@@ -3,3 +3,19 @@
   margin: 0 auto;
   padding-inline: 10px;
 }
+.index-cont {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../Assets/cool-background.svg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  padding-top: 180px;
+}
+@media screen and (max-width: 1098px) {
+  .index-cont {
+    display: block;
+    padding-top: 150px;
+  }
+}

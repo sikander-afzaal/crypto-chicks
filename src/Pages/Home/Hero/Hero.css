@@ -3,7 +3,6 @@
   justify-content: center;
   align-items: center;
   min-height: calc(100vh - 173px);
-  margin-top: 180px;
   width: 100%;
   gap: 2rem;
 }
@@ -80,7 +79,6 @@
   .hero {
     flex-direction: column;
     padding-inline: 20px;
-    margin-top: 150px;
   }
   .left__hero,
   .right__hero {

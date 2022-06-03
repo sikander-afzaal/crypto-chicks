@@ -5,10 +5,12 @@ import Team from "./Team/Team";
 import Roadmap from "../Roadmap/Roadmap";
 function Index() {
   return (
-    <div className="home-index">
-      <Hero />
-      <Team />
-      <Roadmap />
+    <div className="index-cont">
+      <div className="home-index">
+        <Hero />
+        <Team />
+        <Roadmap />
+      </div>
     </div>
   );
 }

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -24,6 +25,9 @@
 .lulu {
   font-family: "LuloClean", "sans-serif";
 }
+.kanit {
+  font-family: "Kanit", sans-serif;
+}
 :root {
   --primary-color: white;
   --secondary-color: white;
@@ -44,4 +48,5 @@
 
 body {
   background: var(--body-bg);
+  overflow-x: hidden;
 }

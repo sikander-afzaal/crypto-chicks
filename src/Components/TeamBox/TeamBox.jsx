@@ -15,7 +15,7 @@ function TeamBox({ img, title, desc, name }) {
       </div>
       <div className="team-box__right">
         <h2 className="futura">{name}</h2>
-        <p className="team-box-title futura">{title}</p>
+        <p className="team-box-title kanit">{title}</p>
         <p className="team-box-desc futura">{desc}</p>
       </div>
     </div>
