@@ -115,7 +115,7 @@
   transition: all 0.3s ease-in-out;
 }
 .active {
-  color: var(--primary-color);
+  color: black;
 }
 .menu-link:hover {
   background-color: rgb(199, 199, 199);
