@@ -8,69 +8,77 @@ import "./Team.css";
 import teamImg from "../../../Assets/team/team1.webp";
 import teamNft from "../../../Assets/team/team-nft.webp";
 import TeamBox from "../../../Components/TeamBox/TeamBox";
+import { Fade } from "react-awesome-reveal";
 function Team() {
   return (
     <div className="team">
-      <h2 className="kanit section-heading">Team</h2>
+      <Fade triggerOnce direction="down" duration={500} delay={200}>
+        <h2 className="kanit section-heading">Team</h2>
+      </Fade>
+
       <div className="coo-row">
-        <div className="coo-div">
-          <div className="coo__img-div">
-            <img src={teamImg} alt="" className="team-img" />
-            <img src={teamNft} alt="" className="team-nft" />
-          </div>
-          <div className="top-desc">
-            <div>
-              <h2 className="kanit">Elissa Maercklein</h2>
-              <p className="futura title">CEO and CMO</p>
+        <Fade direction="left" duration={800} delay={300} triggerOnce>
+          <div className="coo-div">
+            <div className="coo__img-div">
+              <img src={teamImg} alt="" className="team-img" />
+              <img src={teamNft} alt="" className="team-nft" />
+            </div>
+            <div className="top-desc">
+              <div>
+                <h2 className="kanit">Elissa Maercklein</h2>
+                <p className="futura title">CEO and CMO</p>
+              </div>
+
+              <div className="social-team">
+                <FontAwesomeIcon icon={faTwitter} />
+                <FontAwesomeIcon icon={faLinkedin} />
+              </div>
             </div>
 
-            <div className="social-team">
-              <FontAwesomeIcon icon={faTwitter} />
-              <FontAwesomeIcon icon={faLinkedin} />
-            </div>
+            <p className="coo-desc futura">
+              I grew up in the Midwest in the US and have spent the past few
+              years in the Bay Area. I now live in Seattle, Washington. Prior to
+              CC, I built a startup leading our Business Operations and then
+              co-founded a software startup where I led as CEO.​ I’m a dog mom
+              who loves all outdoor activities - hiking, biking, skiing, and
+              swimming (to name a few). You can often find me traveling to
+              explore new areas of the country and world. I’m passionate about
+              bringing more women into tech, crypto, and NFTs 💜
+            </p>
           </div>
+        </Fade>
+        <Fade direction="right" duration={800} delay={300} triggerOnce>
+          <div className="coo-div">
+            <div className="coo__img-div">
+              <img src={teamImg} alt="" className="team-img" />
+              <img src={teamNft} alt="" className="team-nft" />
+            </div>
+            <div className="top-desc">
+              <div>
+                <h2 className="kanit">Elissa Maercklein</h2>
+                <p className="futura title">CEO and CMO</p>
+              </div>
 
-          <p className="coo-desc futura">
-            I grew up in the Midwest in the US and have spent the past few years
-            in the Bay Area. I now live in Seattle, Washington. Prior to CC, I
-            built a startup leading our Business Operations and then co-founded
-            a software startup where I led as CEO.​ I’m a dog mom who loves all
-            outdoor activities - hiking, biking, skiing, and swimming (to name a
-            few). You can often find me traveling to explore new areas of the
-            country and world. I’m passionate about bringing more women into
-            tech, crypto, and NFTs 💜
-          </p>
-        </div>
-        <div className="coo-div">
-          <div className="coo__img-div">
-            <img src={teamImg} alt="" className="team-img" />
-            <img src={teamNft} alt="" className="team-nft" />
-          </div>
-          <div className="top-desc">
-            <div>
-              <h2 className="kanit">Elissa Maercklein</h2>
-              <p className="futura title">CEO and CMO</p>
+              <div className="social-team">
+                <FontAwesomeIcon icon={faTwitter} />
+                <FontAwesomeIcon icon={faLinkedin} />
+              </div>
             </div>
 
-            <div className="social-team">
-              <FontAwesomeIcon icon={faTwitter} />
-              <FontAwesomeIcon icon={faLinkedin} />
-            </div>
+            <p className="coo-desc futura">
+              I grew up in the Midwest in the US and have spent the past few
+              years in the Bay Area. I now live in Seattle, Washington. Prior to
+              CC, I built a startup leading our Business Operations and then
+              co-founded a software startup where I led as CEO.​ I’m a dog mom
+              who loves all outdoor activities - hiking, biking, skiing, and
+              swimming (to name a few). You can often find me traveling to
+              explore new areas of the country and world. I’m passionate about
+              bringing more women into tech, crypto, and NFTs 💜
+            </p>
           </div>
-
-          <p className="coo-desc futura">
-            I grew up in the Midwest in the US and have spent the past few years
-            in the Bay Area. I now live in Seattle, Washington. Prior to CC, I
-            built a startup leading our Business Operations and then co-founded
-            a software startup where I led as CEO.​ I’m a dog mom who loves all
-            outdoor activities - hiking, biking, skiing, and swimming (to name a
-            few). You can often find me traveling to explore new areas of the
-            country and world. I’m passionate about bringing more women into
-            tech, crypto, and NFTs 💜
-          </p>
-        </div>
+        </Fade>
       </div>
-      <div className="team-grid">
+      <Fade className="team-grid" delay={200} duration={500} triggerOnce>
         <Splide
           options={{
             width: "100%",
@@ -173,7 +181,7 @@ function Team() {
             />
           </SplideSlide>
         </Splide>
-      </div>
+      </Fade>
 
       {/* <div className="mod-container">
         <h1 className="futura">Mod Squad</h1>
