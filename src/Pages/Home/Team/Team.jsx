@@ -84,7 +84,7 @@ function Team() {
             interval: 5000,
             speed: 4000,
             pauseOnHover: true,
-            drag: true,
+            drag: false,
             breakpoints: {
               788: {
                 perPage: 1,
