@@ -12,12 +12,24 @@ import { Fade } from "react-awesome-reveal";
 function Team() {
   return (
     <div id="team" className="team">
-      <Fade triggerOnce direction="down" duration={500} delay={200}>
+      <Fade
+        fraction={0}
+        triggerOnce
+        direction="down"
+        duration={500}
+        delay={200}
+      >
         <h2 className="kanit section-heading">Team</h2>
       </Fade>
 
       <div className="coo-row">
-        <Fade direction="left" duration={800} delay={300} triggerOnce>
+        <Fade
+          fraction={0}
+          direction="left"
+          duration={800}
+          delay={500}
+          triggerOnce
+        >
           <div className="coo-div">
             <div className="coo__img-div">
               <img src={teamImg} alt="" className="team-img" />
@@ -47,7 +59,13 @@ function Team() {
             </p>
           </div>
         </Fade>
-        <Fade direction="right" duration={800} delay={300} triggerOnce>
+        <Fade
+          fraction={0}
+          direction="right"
+          duration={800}
+          delay={500}
+          triggerOnce
+        >
           <div className="coo-div">
             <div className="coo__img-div">
               <img src={teamImg} alt="" className="team-img" />
@@ -78,7 +96,13 @@ function Team() {
           </div>
         </Fade>
       </div>
-      <Fade className="team-grid" delay={200} duration={500} triggerOnce>
+      <Fade
+        fraction={0}
+        className="team-grid"
+        delay={200}
+        duration={500}
+        triggerOnce
+      >
         <Splide
           options={{
             width: "100%",
