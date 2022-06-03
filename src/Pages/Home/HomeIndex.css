@@ -29,3 +29,13 @@
     padding-top: 150px;
   }
 }
+@media screen and (max-width: 900px) {
+  .index-cont {
+    background-image: url("../../Assets/cool-background.svg");
+    background-position: top right;
+    background-repeat: no-repeat;
+  }
+  .bg {
+    display: none;
+  }
+}
