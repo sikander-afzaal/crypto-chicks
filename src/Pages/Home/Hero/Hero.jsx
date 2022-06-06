@@ -12,14 +12,13 @@ function Hero() {
       </Fade>
       <Fade triggerOnce direction="right" duration={500} delay={700}>
         <div className="left__hero">
-          <h1 className="futura">
-            CRYPTO CHICKS <span className="lulu-bold">10K.</span>
-          </h1>
+          <h1 className="futura">SOL SISTERS</h1>
           <p className="futura">
-            Generative art collection featuring women of diverse backgrounds
-            with a wide selection of colorful, fun attributes.
+            Sol Sisters by FC Villaflores, 2222 hand drawn degen chicks from all
+            aspects & cultures of the metaverse. A project aiming to be the
+            voice of females in web3
           </p>
-          <button className="view lulu-bold">View on opensea</button>
+          <button className="view lulu-bold">Mint Me</button>
         </div>
       </Fade>
     </div>

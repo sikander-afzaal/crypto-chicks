@@ -9,10 +9,9 @@ function About() {
       </Fade>
       <Fade triggerOnce direction="up" duration={500} delay={700}>
         <p className="lulu">
-          Sol Sisters by "FC Villaflores" , A collection of 7777 hand drawn
-          degen chicks, generated on the blockchain representing women from all
-          aspects & cultures of the metaverse. We aim to empower women and be
-          their voice in web3
+          Sol sisters is a set of 2222 hand drawn degen chicks, generated on the
+          blockchain representing women from all aspects & cultures of the
+          metaverse, we aim to empower women and be there voice in web3
         </p>
       </Fade>
     </div>
