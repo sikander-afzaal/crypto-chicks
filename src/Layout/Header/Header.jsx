@@ -30,7 +30,7 @@ function Header() {
         />
       </div>
       <div className="logo">
-        <h1 className="lulu-bold">CRYPTO CHICKS</h1>
+        <h1 className="lulu-bold">SOL SISTERS</h1>
       </div>
       <FontAwesomeIcon
         onClick={() => setMenu(true)}

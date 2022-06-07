@@ -11,7 +11,7 @@
 .roadmap-grid {
   display: grid;
   grid-template-columns: auto 1fr;
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(4, auto);
   row-gap: 60px;
   width: 100%;
 }

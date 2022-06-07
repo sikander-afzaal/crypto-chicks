@@ -18,7 +18,13 @@ function Hero() {
             aspects & cultures of the metaverse. A project aiming to be the
             voice of females in web3
           </p>
-          <button className="view lulu-bold">Mint Me</button>
+          <p className="futura">
+            mint price is 1.5 sol , whitelist only with a max of 3 mints.
+          </p>
+          <div className="btn-div-hero">
+            <div className="heart-shape"></div>
+            <button className="view lulu-bold">Mint Me</button>
+          </div>
         </div>
       </Fade>
     </div>

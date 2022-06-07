@@ -2,8 +2,8 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-import "./TeamBox.css";
-function TeamBox({ img, title, desc, name }) {
+import "./Box.css";
+function Box({ img, title, desc, name }) {
   return (
     <div className="team-grid__box">
       <div className="team-box__left">
@@ -22,4 +22,4 @@ function TeamBox({ img, title, desc, name }) {
   );
 }
 
-export default TeamBox;
+export default Box;
