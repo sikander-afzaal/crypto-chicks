@@ -46,7 +46,7 @@
   );
 }
 
-body {
+.index-cont {
   background: var(--body-bg);
 }
 html {
