@@ -7,6 +7,7 @@ import bg from "../../Assets/cool-background.svg";
 import About from "./About/About";
 import Faq from "./Faq/Faq";
 import Art from "./AboutArt/Art";
+import Work from "./Work/Work";
 function Index() {
   return (
     <div className="index-cont">
@@ -15,6 +16,7 @@ function Index() {
         <Hero />
         <About />
         <Art />
+        <Work />
         <Roadmap />
         <Team />
         <Faq />
